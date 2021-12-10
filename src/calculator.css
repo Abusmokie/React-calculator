@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.display{
+    background-color:#b0f5ef;
+    border: 1px solid black;
+    height:15vh;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#display-text{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    font-size:30px;
+    /* background-color: red; */
+    margin: 0;
+    margin-bottom: 0.5em;
+    margin-right: 0.25em;
+    height:40%;
+}
+.keypad{
+    height:80vh;
+    border: 1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.key{
+    width : 25%;
+    height: 20%;
+    background-color: #b2b2bf;
+    box-sizing: border-box;
+    border: 1px solid rgb(243, 245, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-value{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    font-size:40px;
+}
+.key:hover{
+    background-color:#c0c0cc;
+}
